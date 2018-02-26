@@ -1,0 +1,16 @@
+version: '3'
+services:
+  app:
+    build: .
+    environment:
+      - NODE_ENV=production
+    links:
+      - db
+    ports:
+      - '8080:8080'
+  db:
+    image: mongo:latest
+    volumes:
+      - db_data:/data/db
+volumes:
+  db_data:

@@ -1,0 +1,14 @@
+{
+  "name": "vcard-project-i-will-never-finish",
+  "version": "0.0.0",
+  "description": "Another vCard web app that I'll probably never finish...",
+  "main": "lib/index.js",
+  "repository": "https://github.com/jbenner-radham/vcard-project-i-will-never-finish.git",
+  "author": "James Benner <james.benner@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@becquerel/framework": "0.4.0-beta.3",
+    "mongoose": "^5.0.7"
+  }
+}
