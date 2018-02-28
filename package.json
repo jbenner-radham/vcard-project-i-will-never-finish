@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@becquerel/framework": "^0.4.0-beta.3",
+    "@becquerel/framework": "^0.4.0",
     "mongoose": "^5.0.7"
   }
 }
